@@ -24,14 +24,24 @@ a {
 .fly_r {
   float: right;
 }
+
+.buttonget {
+  background-color: #ff7a59;
+  border: 1px solid white;
+  color: white;
+}
 /* END GENERAL RULES */
 
-/* Nav Rules */
+/* NAV RULES */
 
+
+/* Nav left up */
 .nav_up {
   background-color: #cbd6e2;
   margin: auto;
-  width: 100vh;
+  width: 1240px;
+  height: 60px;
+  padding-top: 20px;
 }
 
 .nav_up span {
@@ -53,4 +63,27 @@ a {
 .pick_lang {
 
   border-right: 1px solid black;
+}
+
+/*  Nav right up */
+
+.fa-search {
+  color: #0091ae;
+}
+
+.fly_r .join {
+  background-color: white;
+  border: 1px solid #ff7a59;
+  color: #ff7a59;
+  padding: 9px 15px 5px;
+  border-radius: 5px;
+}
+
+.fly_r .buttonget {
+  padding: 9px 15px 5px;
+  border-radius: 5px;
+}
+
+.fly_r a {
+  padding: 0 15px;
 }
