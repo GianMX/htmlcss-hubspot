@@ -128,7 +128,7 @@ li {
   background-position: center;
   background-repeat: no-repeat;
   background-position: 100% 10%;
-  background-color: #fdf5ef;
+  background-color: #fef6ef;
 }
 
 .intro {
@@ -154,7 +154,139 @@ li {
   height: 95px;
   border-top: 4px solid #112D54;
   border-bottom: 4px solid #112D54;
-
 }
 /* FINE bordo fine navigation */
 /* END NAV RULES */
+
+
+/*  INIZIO MAIN RULES */
+
+/* Section motto */
+
+main {
+  margin-top: 80px;
+}
+
+.motto {
+  width: 1240px;
+  margin: auto;
+  text-align:center;
+}
+
+.motto img {
+  height: 200px;
+}
+
+.motto {
+  color: #33475b;
+}
+
+.motto p {
+  margin-top: 30px;
+}
+
+/* FINE section motto */
+
+/* INIZIO prima feature */
+
+/* Impostazione riga main */
+main .mid{
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  width: 1240px;
+  margin:auto;
+  margin-top: 30px;
+}
+main .mid .fly_l {
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding-top: 70px;
+}
+main .mid .fly_l img{
+  width: 20%;
+  margin-bottom: 20px;
+}
+main .mid .fly_l .buttonget{
+  padding: 15px 30px;
+}
+main .mid .fly_r{
+  float: left;
+  width: 70%;
+  padding-top: 40px;
+}
+main .mid .fly_r p{
+  font-size: 14px;
+  width: 70%;
+  padding: 20px 0px;
+}
+main .mid .fly_r span{
+  font-size: 20px;
+  font-weight: bold;
+}
+main .mid .fly_r hr{
+  display: inline-block;
+  border: 1px solid black;
+  background: black;
+  width: 50%;
+  margin-left: 30px;
+  margin-bottom:7px;
+}
+main .row .fly_r li{
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+/* FINE prima feature */
+
+/* INIZIO seconda riga feature */
+.optioncol {
+  width: 1240px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+main .col{
+  float: left;
+  margin-right: 5%;
+  width: 30%;
+  margin-bottom: 50px;
+  border: 3px solid black;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 40px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+
+}
+main .col:last-child{
+  margin-right: 0%;
+}
+main .col img{
+  height: 75px;
+}
+main .col p{
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom:50px;
+}
+main .col hr{
+  background: gray;
+  border: 1px solid gray;
+  width: 90%;
+  margin: auto;
+}
+main .col h3{
+  margin: 20px;
+  font-size: 17px;
+}
+main .col ul{
+  text-align: left;
+  margin-bottom: 60px;
+}
+main .col .buttonget{
+  padding: 15px 30px;
+}
+/* FINE seconda riga feature */
