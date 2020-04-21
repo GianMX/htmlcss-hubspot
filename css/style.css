@@ -36,10 +36,13 @@ li {
 }
 
 /* END GENERAL RULES */
+.nav {
+  position:fixed;
+  top: 0;
+  width: 100%;
 
+}
 /* NAV RULES */
-
-
 /* Nav left up */
 .wrap {
   margin: auto;
@@ -58,21 +61,8 @@ li {
     padding: 0 15px;
 }
 
-.show:hover ul.language-list{
-  max-height: inherit;
-  opacity: 1;
-}
-
-.language-list{
-  list-style-type: none;
-  max-height: 0px;
-  opacity: 0;
-  background-color: white;
-
-}
-
-.pick_lang {
-
+.show .fa-angle-down {
+  padding-right: 5px;
   border-right: 1px solid black;
 }
 
@@ -99,15 +89,25 @@ li {
   padding: 0 15px;
 }
 
-
+/* nav low */
 .cover {
   margin: auto;
   width: 100%;
+  margin-top: 58px;
 }
 
 .nav_low {
   margin: auto;
   width: 1240px;
-  background-color: red;
-  height: 60px;
+}
+
+.logo img {
+  padding-top: 8px;
+}
+
+.overview li {
+  float: right;
+  display: inline;
+  padding-top: 8px;
+  margin: 5px 10px;
 }
