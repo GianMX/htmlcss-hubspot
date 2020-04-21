@@ -290,3 +290,10 @@ main .col .buttonget{
   padding: 15px 30px;
 }
 /* FINE seconda riga feature */
+
+/* INIZIO REPOCHART E SFUMATURA */
+.wrap.sfumato {
+  background-image: linear-gradient(to right, #00A9B9 , #00B8AA);
+}
+
+/* FINE REPOCHART E SFUMATURA */
