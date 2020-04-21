@@ -292,8 +292,119 @@ main .col .buttonget{
 /* FINE seconda riga feature */
 
 /* INIZIO REPOCHART E SFUMATURA */
-.wrap.sfumato {
-  background-image: linear-gradient(to right, #00A9B9 , #00B8AA);
+/* INIZIO testo repochart */
+.sfumato {
+  height: 500px;
+  background-image: linear-gradient(to right top, #00a4bc, #00abba, #00b1b5, #00b7ae, #00bda5);
+  color: white;
+  padding: 40px;
 }
-
+.sfumato .wrap .reptext {
+  width: 1240px;
+  margin: auto;
+  text-align: center;
+}
+.sfumato .wrap .reptext h2 {
+  font-size: 35px;
+  padding-bottom:25px;
+}
+/* FINE testo repochart */
+/* INIZIO chart */
+.replow {
+  width: 1240px;
+  margin: auto;
+  padding-top: 30px;
+}
+.replow .slot {
+  width: 25%;
+  border-right: 1px solid white;
+  text-align: center;
+}
+.sfumato .replow .slot .dati {
+  font-size: 25px;
+  font-weight: bolder;
+  margin: 5px;
+}
+.sfumato .replow .slot p {
+  font-size: 10px;
+  padding-bottom: 15px;
+}
+.sfumato .replow .slot img {
+  margin-top: 10px;
+}
+main .sfumato .replow .slot:nth-child(1),
+main .sfumato .replow .slot:nth-child(2),
+main .sfumato .replow .slot:nth-child(3),
+main .sfumato .replow .slot:nth-child(4){
+  border-bottom: 1px solid white;
+}
+main .sfumato .replow .slot:nth-child(4),
+main .sfumato .replow .slot:nth-child(8){
+  border-right: none;
+}
+/* FINE chart */
 /* FINE REPOCHART E SFUMATURA */
+
+/* INIZIO SEZIONE SPONSOR */
+/* INIZIO sponsor logo */
+section .holdlog .infolog {
+  width: 1240px;
+  margin:auto;
+}
+section .holdlog{
+  padding-top: 50px;
+}
+section .holdlog .usernumb{
+  width: 25%;
+  padding: 0px 10px 55px 55px;
+  font-size: 15px;
+}
+section .holdlog .usernumb h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+section .holdlog .usernumb p{
+  line-height: 20px;
+}
+section .holdlog .sponsor{
+  width: 75%;
+  margin: auto;
+  padding: 10px;
+  padding-left: 150px;
+}
+section .holdlog .sponsor img{
+  display: inline-block;
+  width: 22%;
+  vertical-align: middle;
+  margin: 5px 5px;
+}
+/* FINE sponsor logo */
+/* INIZIO finale sponsor */
+section .lowmain .smilegirl {
+  width: 1240px;
+  margin:auto;
+}
+main .today{
+  float: left;
+  width: 40%;
+  padding-top: 15px;
+}
+main .today p{
+  margin: 20px 5px 40px 5px;
+}
+main .today .buttonget{
+  padding: 20px 35px;
+}
+main .today .getstart{
+  padding-top: 25px;
+}
+main .fotoragazza{
+  float: left;
+  width: 60%;
+}
+main .fotoragazza img{
+  float: right;
+  width: 40%;
+}
+/* FINE finale sponsor */
+/* FINE SEZIONE SPONSOR */
