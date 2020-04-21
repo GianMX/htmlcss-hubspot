@@ -30,6 +30,11 @@ a {
   border: 1px solid white;
   color: white;
 }
+
+li {
+  list-style-type: none;
+}
+
 /* END GENERAL RULES */
 
 /* NAV RULES */
@@ -63,6 +68,7 @@ a {
   max-height: 0px;
   opacity: 0;
   background-color: white;
+
 }
 
 .pick_lang {
@@ -87,4 +93,21 @@ a {
 .fly_r .buttonget {
   padding: 9px 15px 5px;
   border-radius: 5px;
+}
+
+.fly_r a {
+  padding: 0 15px;
+}
+
+
+.cover {
+  margin: auto;
+  width: 100%;
+}
+
+.nav_low {
+  margin: auto;
+  width: 1240px;
+  background-color: red;
+  height: 60px;
 }
