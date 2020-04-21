@@ -36,8 +36,13 @@ a {
 
 
 /* Nav left up */
-.nav_up {
+.wrap {
+  margin: auto;
+  width: 100%;
   background-color: #cbd6e2;
+}
+
+.nav_up {
   margin: auto;
   width: 1240px;
   height: 60px;
@@ -82,8 +87,4 @@ a {
 .fly_r .buttonget {
   padding: 9px 15px 5px;
   border-radius: 5px;
-}
-
-.fly_r a {
-  padding: 0 15px;
 }
