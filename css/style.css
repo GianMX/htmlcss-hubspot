@@ -29,24 +29,34 @@ a {
   background-color: #ff7a59;
   border: 1px solid white;
   color: white;
+  border-radius: 5px;
 }
 
 li {
   list-style-type: none;
 }
 
+.wrap {
+  margin: auto;
+  width: 100%;
+}
+
+.getstart {
+  margin-top: 50px;
+  font-size: 12px;
+}
 /* END GENERAL RULES */
+
+/* NAV RULES */
 .nav {
   position:fixed;
   top: 0;
   width: 100%;
-
 }
-/* NAV RULES */
-/* Nav left up */
-.wrap {
-  margin: auto;
-  width: 100%;
+
+/*  INIZIO navigation up */
+
+.fixback {
   background-color: #cbd6e2;
 }
 
@@ -66,8 +76,6 @@ li {
   border-right: 1px solid black;
 }
 
-/*  Nav right up */
-
 .fa-search {
   color: #0091ae;
 }
@@ -82,17 +90,16 @@ li {
 
 .fly_r .buttonget {
   padding: 9px 15px 5px;
-  border-radius: 5px;
+
 }
 
 .fly_r a {
   padding: 0 15px;
 }
+/*  FINE navigation up */
 
-/* nav low */
+/* INIZIO navigation low */
 .cover {
-  margin: auto;
-  width: 100%;
   margin-top: 58px;
 }
 
@@ -111,3 +118,43 @@ li {
   padding-top: 8px;
   margin: 5px 10px;
 }
+/* FINE navigation low */
+
+/* INIZIO jumbotron navigation */
+
+.jumbo {
+  height: 600px;
+  background-image: url(../img/jumbotron.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 100% 10%;
+  background-color: #fdf5ef;
+}
+
+.intro {
+  width: 1240px;
+  margin:auto;
+  padding-top: 70px;
+}
+
+.jumbo .intro h1{
+ font-size: 45px;
+}
+.jumbo .intro p{
+ margin: 40px 0px 50px 0px;
+}
+.jumbo .intro .buttonget {
+ padding: 25px 45px;
+}
+/* FINE jumbotron navigation */
+
+/* INIZIO bordo fine navigation */
+.ender {
+  background: #afebe4;
+  height: 95px;
+  border-top: 4px solid #112D54;
+  border-bottom: 4px solid #112D54;
+
+}
+/* FINE bordo fine navigation */
+/* END NAV RULES */
