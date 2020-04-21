@@ -1,5 +1,56 @@
+/* GENERAL RULES */
 * {
   padding: 0;
   margin:0;
   box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.fly_l {
+  float: left;
+}
+
+.fly_r {
+  float: right;
+}
+/* END GENERAL RULES */
+
+/* Nav Rules */
+
+.nav_up {
+  background-color: #cbd6e2;
+  margin: auto;
+  width: 100vh;
+}
+
+.nav_up span {
+    padding: 0 15px;
+}
+
+.show:hover ul.language-list{
+  max-height: inherit;
+  opacity: 1;
+}
+
+.language-list{
+  list-style-type: none;
+  max-height: 0px;
+  opacity: 0;
+  background-color: white;
+}
+
+.pick_lang {
+
+  border-right: 1px solid black;
 }
