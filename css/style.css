@@ -414,11 +414,19 @@ footer .lingue a{
   color:white;
 }
 footer hr{
-
   width: 70%;
   margin:auto;
 }
-
 /* Informazioni finali */
-
+.finalcontainer {
+  width: 1240px;
+  margin:auto;
+}
+.finalcontainer  {
+  color:white;
+  margin-top: 15px;
+}
+.finalcontainer .fly_r span a {
+  color:white;
+}
 /* FINE FOOTER */
