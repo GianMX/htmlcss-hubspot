@@ -394,12 +394,30 @@ footer .order .panel {
 .social {
   padding-top: 15px;
 }
-.social a {
+.social a i {
   color:white;
+  width: 15%;
 }
-
 /* FINE MENU footer */
 /* HR lingue */
+/* Impostazione lingua */
+footer .lingue{
+  width: 1240px;
+  margin: auto;
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+footer .lingue a{
+  margin: 10px;
+  font-size: 15px;
+  color:white;
+}
+footer hr{
+
+  width: 70%;
+  margin:auto;
+}
 
 /* Informazioni finali */
 
