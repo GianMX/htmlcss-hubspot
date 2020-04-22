@@ -408,3 +408,18 @@ main .fotoragazza img{
 }
 /* FINE finale sponsor */
 /* FINE SEZIONE SPONSOR */
+/* INIZIO FOOTER  */
+.footer {
+  background-color: #33475b;
+  height:400px;
+}
+.order {
+  width: 1240px;
+  margin:auto;
+}
+
+.ordfoot {
+  color: white;
+}
+
+/* FINE FOOTER */
