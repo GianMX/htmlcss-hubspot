@@ -205,7 +205,7 @@ main .mid .fly_r span{
 }
 main .mid .fly_r hr{
   display: inline-block;
-  border: 1px solid black;
+  border: 1px solid grey;
   background: black;
   width: 50%;
   margin-left: 30px;
