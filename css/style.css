@@ -155,10 +155,10 @@ main {
 main .mid{
   border: 2px solid lightgray;
   border-radius: 5px;
-  margin-bottom: 50px;
   width: 1240px;
   margin:auto;
   margin-top: 30px;
+  padding-bottom: 30px;
 }
 main .mid .fly_l {
   float: left;
@@ -425,6 +425,7 @@ footer hr{
 .finalcontainer  {
   color:white;
   margin-top: 15px;
+  font-size: 13px;
 }
 .finalcontainer .fly_r span a {
   color:white;
