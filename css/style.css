@@ -26,6 +26,19 @@ a {
   color: white;
   border-radius: 5px;
 }
+.buttonget:hover {
+  background: #ffbcac;
+  cursor:pointer;
+}
+.blue:hover {
+  color: #7fd1de;
+}
+a.join:hover {
+  background-color: #fff1ee;
+  opacity: 0.8;
+  color: #ff7a59;
+
+}
 li {
   list-style-type: none;
 }
@@ -36,6 +49,9 @@ li {
 .getstart {
   margin-top: 50px;
   font-size: 12px;
+}
+.zoom:hover {
+  transform: scale(1.014);
 }
 /* END GENERAL RULES */
 /* NAV RULES */
