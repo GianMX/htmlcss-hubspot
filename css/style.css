@@ -22,7 +22,6 @@ a {
 }
 .buttonget {
   background-color: #ff7a59;
-  border: 1px solid white;
   color: white;
   border-radius: 5px;
 }
@@ -37,7 +36,9 @@ a.join:hover {
   background-color: #fff1ee;
   opacity: 0.8;
   color: #ff7a59;
-
+}
+.holdlog , .lowmain , .optioncol , .jumbo , .motto{
+  color:#33475b;
 }
 li {
   list-style-type: none;
@@ -59,6 +60,7 @@ li {
   position:fixed;
   top: 0;
   width: 100%;
+  z-index: 9999;
 }
 /*  INIZIO navigation up */
 .fixback {
@@ -125,7 +127,7 @@ li {
   width: 1240px;
   margin:auto;
   padding-top: 70px;
-  padding-right: 600px;
+  padding-right: 827px;
 }
 .jumbo .intro h1{
  font-size: 45px;
@@ -159,9 +161,6 @@ main {
 .motto img {
   height: 200px;
 }
-.motto {
-  color: #33475b;
-}
 .motto p {
   margin-top: 30px;
 }
@@ -175,6 +174,7 @@ main .mid{
   margin:auto;
   margin-top: 30px;
   padding-bottom: 30px;
+  color: #33475b;
 }
 main .mid .fly_l {
   float: left;
@@ -396,6 +396,7 @@ footer .order .panel {
   background: white;
   color: #33475b;
   padding: 5px;
+  border-radius:5px;
 }
 .panel h3 {
   color:white;
