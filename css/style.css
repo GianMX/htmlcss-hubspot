@@ -251,7 +251,6 @@ main .col .buttonget{
 /* INIZIO REPOCHART E SFUMATURA */
 /* INIZIO testo repochart */
 .sfumato {
-  height: 500px;
   background-image: linear-gradient(to right top, #00a4bc, #00abba, #00b1b5, #00b7ae, #00bda5);
   color: white;
   padding: 40px;
@@ -365,13 +364,43 @@ main .fotoragazza img{
 /* FINE finale sponsor */
 /* FINE SEZIONE SPONSOR */
 /* INIZIO FOOTER  */
+/* MENU footer */
 .footer {
   background-color: #33475b;
-  height:400px;
+  height: 500px;
 }
 .order {
   width: 1240px;
   margin:auto;
 }
+footer .order .panel {
+  width: 25%;
+}
+.helpme {
+  background: white;
+  color: #33475b;
+}
+.panel h3 {
+  color:white;
+  padding: 35px 0;
+
+}
+.panel li a {
+  color:white;
+}
+.panel ul li {
+  padding-bottom: 20px;
+}
+.social {
+  padding-top: 15px;
+}
+.social a {
+  color:white;
+}
+
+/* FINE MENU footer */
+/* HR lingue */
+
+/* Informazioni finali */
 
 /* FINE FOOTER */
