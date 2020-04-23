@@ -123,24 +123,24 @@ li {
   background-position: 100% 10%;
   background-color: #fef6ef;
 }
-.intro {
+#intro {
   width: 1240px;
   margin:auto;
   padding-top: 70px;
   padding-right: 827px;
 }
-.jumbo .intro h1{
+.jumbo #intro h1{
  font-size: 45px;
 }
-.jumbo .intro p{
+.jumbo #intro p{
  margin: 40px 0px 50px 0px;
 }
-.jumbo .intro .buttonget {
+.jumbo #intro .buttonget {
  padding: 25px 45px;
 }
 /* FINE jumbotron navigation */
 /* INIZIO bordo fine navigation */
-.ender {
+#ender {
   background: #afebe4;
   height: 95px;
   border-top: 4px solid #112D54;
@@ -153,15 +153,15 @@ li {
 main {
   margin-top: 80px;
 }
-.motto {
+#motto {
   width: 1240px;
   margin: auto;
   text-align:center;
 }
-.motto img {
+#motto img {
   height: 200px;
 }
-.motto p {
+#motto p {
   margin-top: 30px;
 }
 /* FINE section motto */
@@ -347,9 +347,13 @@ section .holdlog .sponsor{
 }
 section .holdlog .sponsor img{
   display: inline-block;
-  width: 22%;
+  width: 75%;
   vertical-align: middle;
   margin: 5px 5px;
+}
+.slat {
+width: 25%;
+text-align: center;
 }
 /* FINE sponsor logo */
 /* INIZIO finale sponsor */
@@ -383,7 +387,7 @@ main .fotoragazza img{
 /* FINE SEZIONE SPONSOR */
 /* INIZIO FOOTER  */
 /* MENU footer */
-.footer {
+#footer {
   background-color: #33475b;
 }
 .order {
@@ -436,16 +440,16 @@ footer hr{
   margin:auto;
 }
 /* Informazioni finali */
-.finalcontainer {
+#finalcontainer {
   width: 1240px;
   margin:auto;
 }
-.finalcontainer  {
+#finalcontainer  {
   color:white;
   margin-top: 15px;
   font-size: 13px;
 }
-.finalcontainer .fly_r span a {
+#finalcontainer .fly_r span a {
   color:white;
 }
 /* FINE FOOTER */
